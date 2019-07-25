@@ -1,7 +1,7 @@
 # Useful Bash scripts 
 My personal list of useful bash sctipts for grad school. 
 
-*mountwc*- For Mounting the wheelchair over ssh on a remote machine 
+--*mountwc*- For Mounting the wheelchair over ssh on a remote machine 
 
 *unmountwc*- To unmount the wheelchair over ssh on a remote machine
 
