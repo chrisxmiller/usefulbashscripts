@@ -10,6 +10,6 @@ My personal list of useful bash scripts for grad school.
 
 **Requirements** 
 * basic_perp.rviz to be placed in /home/chris/.rviz
-* Install `sshpass` by running `sudo apt-get install sshpass` 
+* Install `sshpass` by running `sudo apt-get install sshpass`; [link to sshpass](https://gist.github.com/arunoda/7790979) 
 
 Passwords not provided and need to be manually entered for security. 
