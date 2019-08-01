@@ -1,7 +1,7 @@
 # Useful Bash Scripts 
 My personal list of useful bash sctipts for grad school. 
 
-* *mountwc*   - For Mounting the wheelchair over ssh on a remote machine  
+* *mountwc*   - For mounting the wheelchair over ssh on a remote machine  
 * *unmountwc* - To unmount the wheelchair over ssh on a remote machine
 * *wclogin*   - To log into the wheelchair over remote and launch byobu
 * *myDocker*  - To launch my docker container on the wheelchair
