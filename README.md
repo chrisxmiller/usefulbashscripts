@@ -8,8 +8,10 @@ My personal list of useful bash scripts for grad school.
 * *unmountwc* - To unmount the above wheelchair's directory over ssh on a remote machine
 * *wclogin*   - To log into the wheelchair over remote and launch byobu
   * Edit: `*yourpasswordhere*` to your wheelchair password and `chris@wc` to `yourusername@permpc`
-* *myDocker*  - To launch my docker container on the wheelchair
-* *newDocker* - To create a new docker container instance
+* *newDocker* - To create a new docker container instance - launch this first when starting a docker. 
+   * Edit: `Chris` to the name of your docker container. 
+* *myDocker*  - To launch my docker container on the wheelchair - launch this after running newDocker to access your docker container in a new terminal instance
+  * Edit: `Chris` to the name of your docker container. 
 * *quickrviz* - To launch rviz for the wheelchair 
   * Copy the `basic_perp.rviz` to `.rviz` in your home directory by executing: `cd $HOME/usefulbashscripts && cp basic_perp.rviz $HOME/.rviz`
 
