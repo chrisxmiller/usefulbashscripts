@@ -17,10 +17,11 @@ My personal list of useful bash scripts for grad school.
 Passwords not provided and need to be manually entered for security. 
 
 **Installation**
-0.  Ensure all requirements above are met. 
-1. Clone this repository into your home directory by running: `cd ~/ && git clone https://github.com/chrisxmiller/usefulbashscripts.git`
-* 2) Check out the list below of scripts and delete any you don't like and 
-* 3) Edit your bashrc so that Ubuntu knows where to find your bash scripts. Open this file by running `code $HOME/.bashrc` (assumes you're using Visual Studio Code as your text editor. If you're using Sublime use `subl` and if you're using Atom use `atom` in-lieu of `code`). 
-* 4) Append to the bottom of the bashrc file the following line: `export PATH="$HOME/usefulbashscripts:$PATH"`
-* 5) Save the bashrc file, close, and then reopen your terminal. Then, reopen the terminal. 
-* 6) Check that the scripts run by trying to run one of them. 
+
+1.  Ensure all requirements above are met. 
+2. Clone this repository into your home directory by running: `cd ~/ && git clone https://github.com/chrisxmiller/usefulbashscripts.git`
+3. Check out the list below of scripts and delete any you don't like and 
+4. Edit your bashrc so that Ubuntu knows where to find your bash scripts. Open this file by running `code $HOME/.bashrc` (assumes you're using Visual Studio Code as your text editor. If you're using Sublime use `subl` and if you're using Atom use `atom` in-lieu of `code`). 
+5. Append to the bottom of the bashrc file the following line: `export PATH="$HOME/usefulbashscripts:$PATH"`
+6. Save the bashrc file, close, and then reopen your terminal. Then, reopen the terminal. 
+7. Check that the scripts run by trying to run one of them. 
