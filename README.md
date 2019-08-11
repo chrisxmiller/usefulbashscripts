@@ -14,6 +14,11 @@ My personal list of useful bash scripts for grad school.
   * Edit: `Chris` to the name of your docker container. 
 * *quickrviz* - To launch rviz for the wheelchair 
   * Copy the `basic_perp.rviz` to `.rviz` in your home directory by executing: `cd $HOME/usefulbashscripts && cp basic_perp.rviz $HOME/.rviz`
+  
+**List of .bashrc Modifications**
+* Step 5 in installation so this folder will be used by default
+* Improved terminal interface. Left is default, right is new. Use if you like (credit to my friend Ravender for this one).
+![Improved Terminal Interface] (https://github.com/chrisxmiller/usefulbashscripts/blob/master/SideBySide.jpg)
 
 **Scripts Coming Soon**
 * Login to data storage (will require manual password entry)
