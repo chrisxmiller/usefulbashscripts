@@ -18,7 +18,8 @@ My personal list of useful bash scripts for grad school.
 **List of .bashrc Modifications**
 * Step 5 in installation so this folder will be used by default
 * Improved terminal interface. Left is default, right is new. Use if you like (credit to my friend Ravender for this one).
-![Improved Terminal Interface] (/SideBySide.jpg)
+
+![Improved Terminal Interface] (SideBySide.jpg)
 
 **Scripts Coming Soon**
 * Login to data storage (will require manual password entry)
