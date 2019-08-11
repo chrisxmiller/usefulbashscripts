@@ -15,8 +15,9 @@ My personal list of useful bash scripts for grad school.
 * *quickrviz* - To launch rviz for the wheelchair 
   * Copy the `basic_perp.rviz` to `.rviz` in your home directory by executing: `cd $HOME/usefulbashscripts && cp basic_perp.rviz $HOME/.rviz`
   
-**List of .bashrc Modifications**
-* Step 5 in installation so this folder will be used by default
+**List of .bashrc Modifications**\
+In `Copy to Bash RC.txt` I list some possibly useful ~/.bashrc mods. These are optional and not necessary for using any of the bash scripts listed here. 
+* The line referenced in step 5 of installing the bash scripts in this repo
 * Improved terminal interface. Left is default, right is new. Use if you like (credit to my friend Ravender for this one).
 
 ![Improved Terminal Interface](SideBySide.jpg)
