@@ -1,0 +1,12 @@
+Copy the below line for importing the useful bash scripts
+export PATH="$HOME/usefulbashscripts:$PATH"`
+
+Copy the below line for better formatting in your terminal
+Instead of the directory being listed at the typing line
+It will be listed above
+
+Changes from: name@pc/dir1/dir2/ $
+To:
+(Date,Time) file path (with new lines as necessary)
+name@pc $ 
+export PS1="\\n\\[\\e[38;5;250m\\](\\D{%b %-d, %Y, %-I:%M %p}) \\w\\n\\[\\e[38;5;118m\\]\\u@\\h \\\\$ \\[\\e[00m\\]"
