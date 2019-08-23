@@ -34,7 +34,8 @@ In `Copy to Bash RC.txt` I list some possibly useful ~/.bashrc mods. These are o
 * Install `sshpass` by running `sudo apt-get install sshpass`; [link to sshpass](https://gist.github.com/arunoda/7790979). This is for autologin for logging into the wheelchair and other systems. 
   * **Do not use this for logging into the secure file storage. This stores your password in plaintext and would leave you at risk for identity theft and make our fileshare non-IRB compliant. I will not write scripts with this populated.**
   * Passwords not provided in any scripts need to be manually entered for security. 
-* Install `avconv` via `sudo apt-get install libav-tools` to use the compvids script.
+* Install `avconv` via `sudo apt-get install libav-tools` to use the `compvids` script.
+* Install `cifs-utils` via `sudo apt-get install cifs-utils` to use the `mountRDSS` script.
 
 **Installation**
 1. Ensure all requirements above are met. 
