@@ -14,7 +14,9 @@ My personal list of useful bash scripts for grad school.
   * Edit: `Chris` to the name of your docker container. 
 * *quickrviz* - To launch rviz for the wheelchair 
   * Copy the `basic_perp.rviz` to `.rviz` in your home directory by executing: `cd $HOME/usefulbashscripts && cp basic_perp.rviz $HOME/.rviz`
-
+* *mountRDSS* - To mount the RDSS fileshare at the AbilityLab, NU network (on campus or VPN). 
+ * `mountRDSS NetID` to use. Mounts the folder /mnt/mountpoint. Already calls sudo. 
+* *unmountRDSS* - To unmount the RDSS fileshare; already calls sudo. 
 * *copvids* - Compresses all videos in a folder using avcnov and copies them to an output folder. 
  * Make a file system: `IN/SubjectID` (for each subject) and `OUT/SubjectID`. Then, copy all the videos from all the cameras for each subject to their respective `IN` folder. Finally, I run `compvids /path/to/oUT/subjectID`. It will compress all the cideos for that subject and copy it to their output folder. You can compress multiple subjects overnight. Copy the top-level `OUT` folder to the RDSS for your study. 
   * This script requires installation of `avconv`
