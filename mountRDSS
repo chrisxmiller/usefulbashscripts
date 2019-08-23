@@ -1,0 +1,2 @@
+NETID=$1
+sudo mount -t cifs //129.105.180.116/ARGALLAB -o domain=ads,vers=2.0,username=$NETID /mnt/mountpoint
