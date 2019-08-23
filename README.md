@@ -4,7 +4,6 @@ My personal list of useful bash scripts for grad school.
  **List of Scripts** 
 * *mountwc*   - For mounting the wheelchair working directory over ssh on a remote machine for software development on the remote machine
   * Edit: `chris@wc:/home/chris /mnt/wc` to `yourusername@permpc:home/yourusername /mnt/yourmountdirecory`
-  * **Requires sudo to execute: does not autopopulate passwords, yet.**
 * *unmountwc* - To unmount the above wheelchair's directory over ssh on a remote machine
 * *wclogin*   - To log into the wheelchair over remote and launch byobu
   * Edit: `*yourpasswordhere*` to your wheelchair password and `chris@wc` to `yourusername@permpc`
