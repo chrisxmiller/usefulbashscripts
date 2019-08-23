@@ -1,3 +1,3 @@
-ENDPATH = $1
+ENDPATH=$1
 for i in *.MP4; do avconv -i "$i" -vcodec libx264 -acodec libmp3lame -crf 24 "out-$i" 
 cp "out-$i" $ENDPATH; done
