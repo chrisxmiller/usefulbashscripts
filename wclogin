@@ -1,2 +1,2 @@
 #/bin/bash
-sshpass -p '*passwordhere*' ssh chris@wc
+sudo sshpass -p '*passwordhere*' ssh chris@wc

@@ -1,2 +1,2 @@
 #/bin/bash
-sshfs -o allow_other chris@wc:/home/chris/ /mnt/wc
+sudo sshfs -o allow_other chris@wc:/home/chris/ /mnt/wc

@@ -1,2 +1,2 @@
 #/bin/bash
-umount /mnt/wc
+sudo umount /mnt/wc
