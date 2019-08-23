@@ -29,9 +29,6 @@ In `Copy to Bash RC.txt` I list some possibly useful ~/.bashrc mods. These are o
 ![Improved Terminal Interface](SideBySide.jpg)
 
 **Scripts Coming Soon**
-* Login to data storage (will require manual password entry)
-* Log off of data storage
-* Batch video compression of all videos in folder 
 * Batch video compression of all videos in folder, copy all videos from folder to specified location on storage, sign out after copy (will require manual login, first)
 
 **Requirements** 
