@@ -29,6 +29,8 @@ In `Copy to Bash RC.txt` I list some possibly useful ~/.bashrc mods. These are o
 
 **Scripts Coming Soon**
 * Batch video compression of all videos in folder, copy all videos from folder to specified location on storage, sign out after copy (will require manual login, first)
+* Batch extract nodes from a set of large bag files to make smaller bag files and all files co-located within the same directory! Will riff off: 
+`for file in *.bag; do rosbag filter $file "$file-filtered.bag" "topic == '/smoo'"; done`
 
 **Requirements** 
 * Install `sshpass` by running `sudo apt-get install sshpass`; [link to sshpass](https://gist.github.com/arunoda/7790979). This is for autologin for logging into the wheelchair and other systems. 
